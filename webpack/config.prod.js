@@ -1,11 +1,12 @@
+/* eslint-disable import/no-unresolved */
 const { merge } = require('webpack-merge');
-const webpackConfig = require('./config');
 const path = require('path');
+const webpackConfig = require('./config');
 
 module.exports = merge(webpackConfig, {
   mode: 'production',
   output: {
     path: path.join(__dirname, './dist'),
-    filename: 'bundle.js'
-  }
+    filename: 'bundle.js',
+  },
 });

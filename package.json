@@ -4,8 +4,8 @@
   "description": "pwatlas",
   "main": "main.js",
   "scripts": {
-    "start": "webpack-dev-server --open --hot --config webpack.config/dev.js",
-    "build": "webpack --config webpack.config/prod.js",
+    "start": "webpack-dev-server --open --hot --config webpack/config.dev.js",
+    "build": "webpack --config webpack/config.prod.js",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
