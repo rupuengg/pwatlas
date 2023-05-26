@@ -1,0 +1,6 @@
+{
+  "extends": "./base.ts-config.json",
+  "compilerOptions": {
+    "skipLibCheck": true
+  }
+}
