@@ -1,6 +1,8 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
 
 module.exports = {
+  entry: path.join(__dirname, '../src/main.tsx'),
   devtool: 'inline-source-map',
   devServer: {
     static: './dist',
