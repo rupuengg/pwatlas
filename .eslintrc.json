@@ -84,6 +84,33 @@
             {
                 "allow": "as-needed"
             }
+        ],
+        "no-shadow": "off",
+        "@typescript-eslint/no-shadow": "warn",
+        "no-unused-vars": [
+            0,
+            {
+                "vars": "all",
+                "args": "after-used",
+                "ignoreRestSiblings": false
+            }
+        ],
+        "react/no-unused-prop-types": [
+            0,
+            {
+                "ignore": "all",
+                "customValidators": "",
+                "skipShapeProps": ""
+            }
+        ],
+        "react/jsx-props-no-spreading": [
+            0,
+            {
+                "html": "ignore",
+                "custom": "ignore",
+                "explicitSpread": "ignore",
+                "exceptions": []
+            }
         ]
     },
     "settings": {
